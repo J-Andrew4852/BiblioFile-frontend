@@ -21,6 +21,8 @@ body {
   --heading-color: #333;
   --base-font-family: 'Mulish', sans-serif;
   --body-bg: #fff;
+  --sl-input-height-medium: 2em;
+  --sl-input-font-size-medium: 1em;
   
 
   // colors  
@@ -50,12 +52,17 @@ body {
   --sl-focus-ring-color-primary: #{rgba($brand-color, 0.1)};
 }
 
+.form-conrtol {
+  --sl-input-height-medium: 4em;
+  --sl-input-font-size-medium: 2em;
+}
 
 
 // headings ------------
 h1,h2,h3,h5,h6 {
-  margin: 0 0 .5em;
+  margin: 0.8em 0 0 0;
   color: var(--heading-color);
+  font-size: 2.2em;
 }
 
 // links ---------------
@@ -241,7 +248,7 @@ a {
   justify-content: center;
   align-items: center;
   color: white;
-  font-size: 1.2em;
+  font-size: 2.2em;
   font-weight: 500;
 }
 .gender-box {
@@ -293,7 +300,8 @@ a {
   height: 100vh;
   .splitleft {
     h1 {
-      margin: 10vh 0 0 5vw;
+      font-size: 4em;
+      margin: 12vh 0 0 5vw;
     }
     background-image: url(../../static/static_mockups/sign/sign.svg);
     background-repeat: no-repeat;
@@ -319,7 +327,7 @@ a {
 .signup-box {  
   max-width: 320px;
   text-align: center;
-  margin: 20vh 0 0 11.5vw;
+  margin: 25vh 0 0 18vw;
 }
 
 .signinup-logo {
@@ -399,14 +407,14 @@ a {
       h1 {
         text-align: left;
         font-size: 1.6em;
-        margin: -3px 0 0 0;
+        margin: -0.2em 0 0 0;
         padding: 0 0 2vh 2vw;
       }
     }
     .guide-para {
       text-align: left;
       p{
-        font-size: 1.1em;
+        font-size: 2em;
         line-height: 1.5;
       }
     }
@@ -419,8 +427,8 @@ a {
     justify-content: center;
     padding-bottom: 5vh;
     .animation-container {
-      height: 350px;
-      width: 350px;
+      height: 650px;
+      width: 650px;
       background-color: white;
       border-radius: 50%;
     }
@@ -433,68 +441,73 @@ a {
   flex-wrap: wrap;
   width: 90%;
   height: 350px;
-  margin: 10vh 0 0 5vw;
-  align-items: center;
+  padding: 15vh 3vw 0 3vw;
+  // align-items: center;
   justify-content: center;
 }
 .lc-character {
-  margin: 3vh 0 0 5vw;
+  margin-top: 25vh;
+  align-items: center;
+  .adder {
+    margin-top: -900px;
+  }
 }
 .list-item {
   display: flex;
   flex-direction: column;
-  height: auto;
-  width: 150px;
-  margin: 10px 10px 10px 10px;
-  align-items: center;
-  justify-content: center;
+  height: 700px;
+  width: 300px;
+  margin: 10px 50px 10px 50px;
+  // align-items: center;
+  // justify-content: center;
   color: #333;
   cursor: pointer;
   .story-pic {
-    height: 150px;
-    width: 150px;
+    width: 300px;
+    height: 300px;
     background-color: rgb(90, 184, 187);
-    margin: 10px 0 20px 0;
     overflow: hidden;
     border-radius: 50%;
     cursor: pointer;
   }
   .character-pic {
     position: absolute;
-    top: 0;
-    height: 200px;
-    width: 140px;
+    bottom: 80px;
+    width: 100%;
+    height: auto;
     border-radius: 15px;
     margin: 0 0 0 0;
   }
   .character-back-pic {
     position: absolute;
     bottom: 0;
-    height: 140px;
-    width: 140px;
+    width: 300px;
+    height: 300px;
     border-radius: 50%;
     margin: 0 0 0 0;
     overflow: hidden;
   }
   p {
-    line-height: 100%;
-    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    font-size: 1.6em;
+    line-height: 90%;
   }
 }
 .story-background-image {
   height: auto;
-  width: 140px;
+  width: 100%;
 }
 .story-character-image {
-  height: 150px;
+  height: 330px;
   width: auto;
+  margin-top: -120px;
 }
 .character-image {
   height: 50vh;
   width: auto;
 }
 .adder {
-  padding: 140px 0 140px 75px;
+  padding: 140px 0 140px 150px;
   cursor: pointer;
 }
 
@@ -511,7 +524,7 @@ a {
   .hover-line {
     background-color: var(--brand-color);;
     width: 0;
-    height: 3px;
+    height: 5px;
     border-radius: 5px;  
     transition: width 0.3s ease;
     margin-top: 0.5em;
@@ -522,16 +535,16 @@ a {
   }
   .cstatic-line {
     background-color: var(--brand-color);;
-    width: 160px;
-    height: 3px;
+    width: 375px;
+    height: 5px;
     border-radius: 5px;  
     margin-top: 0.5em;
     margin-left: 2em;
   }
   .nstatic-line {
     background-color: var(--brand-color);;
-    width: 100px;
-    height: 3px;
+    width: 250px;
+    height: 5px;
     border-radius: 5px;  
     margin-top: 0.5em;
     margin-left: 2em;
@@ -541,10 +554,10 @@ a {
   }
 }
 .csubnav:hover > div {
-  width: 160px;
+  width: 375px;
 }
 .nsubnav:hover > div {
-  width: 100px;
+  width: 250px;
 }
 
 // copy and paste of app-header
@@ -623,14 +636,14 @@ a {
 .hover-line {
   background-color: var(--brand-color);;
   width: 5%;
-  height: 3px;
+  height: 5px;
   border-radius: 5px;  
   position: absolute;
   transition: width 0.3s ease;
   margin-top: 3em;
 }
 .app-header-main:hover > div {
-  width: 15%;
+  width: 100%;
 }
 
 .page-title {
@@ -638,6 +651,7 @@ a {
   margin-right: 0.5em;
   font-size: var(--app-header-title-font-size);
   font-weight: var(--app-header-title-font-weight);
+  width: 35vw;
 }
 
 /* active nav links */
@@ -693,6 +707,9 @@ a {
   display: flex;
   width: 100%;
   padding: 0 2em 0 2em;
+  font-size: 2em;
+  justify-content: center;
+  align-items: center;
 }
 .selectorDiv > .selectorSl {
   margin-left: auto;
@@ -700,7 +717,8 @@ a {
 .selectorDiv2 {
   display: flex;
   width: 100%;
-  padding: 0 2em 1.5vh 2em;
+  padding: 0.8em 2em 0 2em;
+  font-size: 2.2em;
 }
 .selectorDiv2 > .selectorSl2 {
   margin-left: 0 auto 1em auto;
@@ -709,9 +727,9 @@ a {
 .contentBoxLine {
   background-color: #777;
   width: auto;
-  height: 0.5px;
-  margin-top: -1vh;
-  margin-bottom: 2vh;
+  height: 2px;
+  margin-top: 1.8em;
+  margin-bottom: 0.5em;
 }
 .selectorSl {
   width: 80%;
@@ -722,9 +740,11 @@ a {
 .barChart {
   display: flex;
   margin: 0;
-  padding: 0 2em 0 2em;
+  padding: 0.8em 2em 0 2em;
+  align-items: center;
   p {
     line-height: 0.8;
+    font-size: 2em;
   }
 }
 .bar-line1 {
@@ -808,9 +828,11 @@ a {
 }
 
 .box-subheader {
-  font-size: 1.2em;
+  font-size: 2.2em;
   font-weight: 500;
   line-height: 0.8;
+  padding: 10px 0 0 0;
+  margin-bottom: -10px;
 }
 
 .regenerateBtn {
@@ -825,14 +847,13 @@ a {
 
 .character-image-box {
   position: relative;
-  height: 200px;
+  height: auto;
   width: 100%;
-  margin: 0 0 10px 0;
 }
 
 .story-background {
-  width: 150px;
-  height: auto;
+  width: 100%;
+  height: 300px;
 }
 
 #foo {
@@ -852,7 +873,7 @@ a {
 #chart {
   height: 85%;
   width: auto;
-  margin-top: -2vh;
+  margin-top: -0.5em;
 }
 .character-grid-item {
   p {
@@ -864,3 +885,20 @@ a {
 }
 
 // Animations
+
+// UI fixes for gradshow
+
+.submit-btn {
+  width: 10vw;
+  height: 5vh;
+  margin-right: 1em;
+  font-size: 4em;
+}
+
+.icon-n-label {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 3em;
+}

@@ -48,7 +48,7 @@ class GuideView {
           <div class="guide-box">
             <div class="guide-box-left">
               <div class="icon-n-label">
-                <svg width="24" height="24" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg width="48" height="48" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M5 0C2.23858 0 0 2.23858 0 5V29C0 31.7614 2.23858 34 5 34H29C31.7614 34 34 31.7614 34 29V5C34 2.23858 31.7614 0 29 0H5ZM12 9C12 10.6569 10.6569 12 9 12C7.34315 12 6 10.6569 6 9C6 7.34315 7.34315 6 9 6C10.6569 6 12 7.34315 12 9ZM28 9C28 10.6569 26.6569 12 25 12C23.3431 12 22 10.6569 22 9C22 7.34315 23.3431 6 25 6C26.6569 6 28 7.34315 28 9ZM9 28C10.6569 28 12 26.6569 12 25C12 23.3431 10.6569 22 9 22C7.34315 22 6 23.3431 6 25C6 26.6569 7.34315 28 9 28ZM28 25C28 26.6569 26.6569 28 25 28C23.3431 28 22 26.6569 22 25C22 23.3431 23.3431 22 25 22C26.6569 22 28 23.3431 28 25ZM17 20C18.6569 20 20 18.6569 20 17C20 15.3431 18.6569 14 17 14C15.3431 14 14 15.3431 14 17C14 18.6569 15.3431 20 17 20Z" fill="#424C70"/>
                 </svg>
                 <h1>Randomise Characters</h1> 
@@ -70,8 +70,8 @@ class GuideView {
           </div>
         </div>
       
-        <sl-button type="primary" @click=${() => gotoRoute('/signin')}>Okay got it!</sl-button>
-        <sl-button type="primary" class="submit-btn" @click=${this.updateCurrentUser.bind(this)}>Don't show again</sl-button>
+        <sl-button size="large" type="primary" class="submit-btn" @click=${() => gotoRoute('/signin')}>Okay got it!</sl-button>
+        <sl-button size="large" type="primary" class="submit-btn" @click=${this.updateCurrentUser.bind(this)}>Don't show again</sl-button>
       </div>      
     `
     render(template, App.rootEl);

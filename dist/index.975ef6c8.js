@@ -9565,7 +9565,7 @@ class GuideView {
           <div class="guide-box">
             <div class="guide-box-left">
               <div class="icon-n-label">
-                <svg width="24" height="24" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg width="48" height="48" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M5 0C2.23858 0 0 2.23858 0 5V29C0 31.7614 2.23858 34 5 34H29C31.7614 34 34 31.7614 34 29V5C34 2.23858 31.7614 0 29 0H5ZM18 10H16V16H10V18H16V24H18V18H24V16H18V10Z" fill="#424C70"/>
                 </svg>
                 <h1>Create Stories</h1> 
@@ -9589,8 +9589,8 @@ class GuideView {
           </div>
         </div>
       
-        <sl-button type="primary" @click=${()=>(0, _router.gotoRoute)("/signin")}>Okay got it!</sl-button>
-        <sl-button type="primary" class="submit-btn" @click=${this.updateCurrentUser.bind(this)}>Don't show again</sl-button>
+        <sl-button size="large" type="primary" class="submit-btn" @click=${()=>(0, _router.gotoRoute)("/signin")}>Okay got it!</sl-button>
+        <sl-button size="large" type="primary" class="submit-btn" @click=${this.updateCurrentUser.bind(this)}>Don't show again</sl-button>
       </div>      
     `;
         (0, _litHtml.render)(template, (0, _appDefault.default).rootEl);
@@ -45995,7 +45995,7 @@ class GuideView {
           <div class="guide-box">
             <div class="guide-box-left">
               <div class="icon-n-label">
-                <svg width="24" height="24" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg width="48" height="48" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M5 0C2.23858 0 0 2.23858 0 5V29C0 31.7614 2.23858 34 5 34H29C31.7614 34 34 31.7614 34 29V5C34 2.23858 31.7614 0 29 0H5ZM12 9C12 10.6569 10.6569 12 9 12C7.34315 12 6 10.6569 6 9C6 7.34315 7.34315 6 9 6C10.6569 6 12 7.34315 12 9ZM28 9C28 10.6569 26.6569 12 25 12C23.3431 12 22 10.6569 22 9C22 7.34315 23.3431 6 25 6C26.6569 6 28 7.34315 28 9ZM9 28C10.6569 28 12 26.6569 12 25C12 23.3431 10.6569 22 9 22C7.34315 22 6 23.3431 6 25C6 26.6569 7.34315 28 9 28ZM28 25C28 26.6569 26.6569 28 25 28C23.3431 28 22 26.6569 22 25C22 23.3431 23.3431 22 25 22C26.6569 22 28 23.3431 28 25ZM17 20C18.6569 20 20 18.6569 20 17C20 15.3431 18.6569 14 17 14C15.3431 14 14 15.3431 14 17C14 18.6569 15.3431 20 17 20Z" fill="#424C70"/>
                 </svg>
                 <h1>Randomise Characters</h1> 
@@ -46017,8 +46017,8 @@ class GuideView {
           </div>
         </div>
       
-        <sl-button type="primary" @click=${()=>(0, _router.gotoRoute)("/signin")}>Okay got it!</sl-button>
-        <sl-button type="primary" class="submit-btn" @click=${this.updateCurrentUser.bind(this)}>Don't show again</sl-button>
+        <sl-button size="large" type="primary" class="submit-btn" @click=${()=>(0, _router.gotoRoute)("/signin")}>Okay got it!</sl-button>
+        <sl-button size="large" type="primary" class="submit-btn" @click=${this.updateCurrentUser.bind(this)}>Don't show again</sl-button>
       </div>      
     `;
         (0, _litHtml.render)(template, (0, _appDefault.default).rootEl);
@@ -46086,13 +46086,13 @@ class GuideView {
           <div class="guide-box">
             <div class="guide-box-left">
               <div class="icon-n-label">
-                <svg width="24" height="24" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg width="48" height="48" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M0 26.9176V34H7.08235L27.9706 13.1118L20.8882 6.02944L0 26.9176ZM33.4476 7.63477C34.1841 6.89821 34.1841 5.70837 33.4476 4.97181L29.0282 0.552423C28.2916 -0.184141 27.1018 -0.184141 26.3652 0.552423L22.909 4.00861L29.9914 11.091L33.4476 7.63477V7.63477Z" fill="#424C70"/>
                 </svg>
                 <h1>Create Stories</h1> 
               </div>
               <div class="guide-para">
-                <p>Edit everything from the character’s personality traits to what motivates them</p>
+                <p>Edit everything from the character's personality traits to what motivates them</p>
                 <p>Click the pen icon to edit components </p>
               </div>
             </div>
@@ -46109,8 +46109,8 @@ class GuideView {
           </div>
         </div>
       
-        <sl-button type="primary" @click=${()=>(0, _router.gotoRoute)("/signin")}>Okay got it!</sl-button>
-        <sl-button type="primary" class="submit-btn" @click=${this.updateCurrentUser.bind(this)}>Don't show again</sl-button>
+        <sl-button size="large" type="primary" class="submit-btn" @click=${()=>(0, _router.gotoRoute)("/signin")}>Okay got it!</sl-button>
+        <sl-button size="large" type="primary" class="submit-btn" class="submit-btn" @click=${this.updateCurrentUser.bind(this)}>Don't show again</sl-button>
       </div>      
     `;
         (0, _litHtml.render)(template, (0, _appDefault.default).rootEl);
@@ -46167,7 +46167,7 @@ class StoryNotesView {
           <div class="notes-top-bar fit1">
             <div class="divider-line"></div>
           </div>
-          <sl-textarea @input=${debounce(this.saveNote, 600)} class="notes-section" value="${this.note}" resize="auto" placeholder="Start writing here..." size="small" rows="20"></sl-textarea>
+          <sl-textarea @input=${debounce(this.saveNote, 600)} class="notes-section" value="${this.note}" resize="auto" placeholder="Start writing here..." size="large" rows="30"></sl-textarea>
         </div>
         
       </div>      
@@ -46246,11 +46246,11 @@ class StoriesView {
                 <img class="story-background" src='${backgroundImage}'>
               </div>
               <h3>${story.title}</h3>
-              <p>11/11/2022</p>
+              <p>25/11/2022</p>
             </div>
             `)}
             <div @click="${()=>this.generateStory()}" class="adder">
-              <svg width="36" height="36" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <svg width="52" height="52" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M0 17C0 7.61116 7.61116 0 17 0H53C62.3888 0 70 7.61116 70 17V53C70 62.3888 62.3888 70 53 70H17C7.61116 70 0 62.3888 0 53V17Z" fill="#F8D57E"/>
                 <path d="M21 38V32H50V38H21Z" fill="#424C70"/>
                 <path d="M32 21H38V50H32V21Z" fill="#424C70"/>
@@ -46508,12 +46508,12 @@ class StoryCharacterView {
                 <img class="story-character-image" src="${IMG_URL_TO_ASSET_URL[character.characterImage]}">
               </div>
             </div>
-            <h3>${character.fname}</h3>
+            <h3>${character.fname} ${character.lname}</h3>
             <p>${character.job}<br></br>${character.age} ${character.gender}</p>
           </div>
             `)}
             <div @click="${()=>this.generateCharacter()}" class="adder">
-              <svg width="36" height="36" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <svg width="52" height="52"" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M0 17C0 7.61116 7.61116 0 17 0H53C62.3888 0 70 7.61116 70 17V53C70 62.3888 62.3888 70 53 70H17C7.61116 70 0 62.3888 0 53V17Z" fill="#F8D57E"/>
                 <path d="M21 38V32H50V38H21Z" fill="#424C70"/>
                 <path d="M32 21H38V50H32V21Z" fill="#424C70"/>
@@ -46910,10 +46910,10 @@ class CharacterView {
                 <sl-input class="selectorSl2" value=${this.character.personalityTraits[0]}></sl-input>
               </div>
               <div class="selectorDiv2">
-                <sl-input class="selectorSl2" value=${this.character.personalityTraits[1]}></sl-input>
+                <sl-input class="selectorSl2" size="medium" value=${this.character.personalityTraits[1]}></sl-input>
               </div>
               <div class="selectorDiv2">
-                <sl-input class="selectorSl2" value=${this.character.personalityTraits[2]}></sl-input>
+                <sl-input class="selectorSl2" size="medium" value=${this.character.personalityTraits[2]}></sl-input>
               </div>
             </div>
             <div class="character-grid-item" style="background-color: ${LOCATION_TO_COLOUR[this.character.location]};">
@@ -47123,7 +47123,7 @@ class CharacterNotesView {
             <div class="notes-top-bar fit2">
               <div class="divider-line"></div>
             </div>
-            <sl-textarea value="${this.note}" @input=${debounce(this.saveNote, 600)} class="character-notes-section" resize="auto" placeholder="Start writing here..." size="small" rows="20"></sl-textarea>
+            <sl-textarea size="large" value="${this.note}" @input=${debounce(this.saveNote, 600)} class="character-notes-section" resize="auto" placeholder="Start writing here..." rows="35"></sl-textarea>
           </div>
         </div>
       </div>      
@@ -47264,12 +47264,12 @@ customElements.define("va-app-header", class AppHeader extends (0, _litElement.L
     display: block;
     padding: 1em;
     text-decoration: none;
-    font-size: 1.5em;
+    font-size: 3.5em;
     color: var(--brand-color);
   }
   
   .app-side-menu-logo {
-    width: 200px;
+    width: 400px;
     margin-bottom: 2em;
     position: absolute;
     top: 1em;
@@ -47350,7 +47350,7 @@ customElements.define("va-app-header", class AppHeader extends (0, _litElement.L
       </nav>
     </header>
 
-    <sl-drawer class="app-side-menu" placement="right">
+    <sl-drawer class="app-side-menu" class="drawer-custom-size" style="--size: 35vw;" placement="right">
       <img class="app-side-menu-logo" src="${0, _logoSvgDefault.default}">
 
       <nav class="app-side-menu-items">

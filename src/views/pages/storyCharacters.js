@@ -86,12 +86,12 @@ class StoryCharacterView {
                 <img class="story-character-image" src="${IMG_URL_TO_ASSET_URL[character.characterImage]}">
               </div>
             </div>
-            <h3>${character.fname}</h3>
+            <h3>${character.fname} ${character.lname}</h3>
             <p>${character.job}<br></br>${character.age} ${character.gender}</p>
           </div>
             `)}
             <div @click="${() => this.generateCharacter()}" class="adder">
-              <svg width="36" height="36" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <svg width="52" height="52"" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M0 17C0 7.61116 7.61116 0 17 0H53C62.3888 0 70 7.61116 70 17V53C70 62.3888 62.3888 70 53 70H17C7.61116 70 0 62.3888 0 53V17Z" fill="#F8D57E"/>
                 <path d="M21 38V32H50V38H21Z" fill="#424C70"/>
                 <path d="M32 21H38V50H32V21Z" fill="#424C70"/>

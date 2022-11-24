@@ -136,12 +136,12 @@ customElements.define('va-app-header', class AppHeader extends LitElement {
     display: block;
     padding: 1em;
     text-decoration: none;
-    font-size: 1.5em;
+    font-size: 3.5em;
     color: var(--brand-color);
   }
   
   .app-side-menu-logo {
-    width: 200px;
+    width: 400px;
     margin-bottom: 2em;
     position: absolute;
     top: 1em;
@@ -226,7 +226,7 @@ customElements.define('va-app-header', class AppHeader extends LitElement {
       </nav>
     </header>
 
-    <sl-drawer class="app-side-menu" placement="right">
+    <sl-drawer class="app-side-menu" class="drawer-custom-size" style="--size: 35vw;" placement="right">
       <img class="app-side-menu-logo" src="${logo}">
 
       <nav class="app-side-menu-items">

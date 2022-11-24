@@ -37,6 +37,8 @@ body {
   --heading-color: #333;
   --base-font-family: "Mulish", sans-serif;
   --body-bg: #fff;
+  --sl-input-height-medium: 2em;
+  --sl-input-font-size-medium: 1em;
   --brand-color: #f8d57e;
   --link-color: --brand-color;
   --app-header-height: 90px;
@@ -59,9 +61,15 @@ body {
   font-weight: 300;
 }
 
+.form-conrtol {
+  --sl-input-height-medium: 4em;
+  --sl-input-font-size-medium: 2em;
+}
+
 h1, h2, h3, h5, h6 {
   color: var(--heading-color);
-  margin: 0 0 .5em;
+  margin: .8em 0 0;
+  font-size: 2.2em;
 }
 
 a {
@@ -248,7 +256,7 @@ a {
   justify-content: center;
   align-items: center;
   margin: 3vh 2vw 0 0;
-  font-size: 1.2em;
+  font-size: 2.2em;
   font-weight: 500;
   display: flex;
 }
@@ -299,7 +307,8 @@ a {
 }
 
 .signsplit .splitleft h1 {
-  margin: 10vh 0 0 5vw;
+  margin: 12vh 0 0 5vw;
+  font-size: 4em;
 }
 
 .sign-back-label {
@@ -315,7 +324,7 @@ a {
 .signinup-box, .signup-box {
   max-width: 320px;
   text-align: center;
-  margin: 20vh 0 0 11.5vw;
+  margin: 25vh 0 0 18vw;
 }
 
 .signinup-logo {
@@ -400,7 +409,7 @@ a {
 
 .guide-box .guide-box-left .icon-n-label h1 {
   text-align: left;
-  margin: -3px 0 0;
+  margin: -.2em 0 0;
   padding: 0 0 2vh 2vw;
   font-size: 1.6em;
 }
@@ -410,7 +419,7 @@ a {
 }
 
 .guide-box .guide-box-left .guide-para p {
-  font-size: 1.1em;
+  font-size: 2em;
   line-height: 1.5;
 }
 
@@ -424,8 +433,8 @@ a {
 }
 
 .guide-box .guide-box-right .animation-container {
-  height: 350px;
-  width: 350px;
+  height: 650px;
+  width: 650px;
   background-color: #fff;
   border-radius: 50%;
 }
@@ -435,49 +444,50 @@ a {
   height: 350px;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
-  margin: 10vh 0 0 5vw;
+  padding: 15vh 3vw 0;
   display: flex;
 }
 
 .lc-character {
-  margin: 3vh 0 0 5vw;
+  align-items: center;
+  margin-top: 25vh;
+}
+
+.lc-character .adder {
+  margin-top: -900px;
 }
 
 .list-item {
-  height: auto;
-  width: 150px;
+  height: 700px;
+  width: 300px;
   color: #333;
   cursor: pointer;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: 10px;
+  margin: 10px 50px;
   display: flex;
 }
 
 .list-item .story-pic {
-  height: 150px;
-  width: 150px;
+  width: 300px;
+  height: 300px;
   cursor: pointer;
   background-color: #5ab8bb;
   border-radius: 50%;
-  margin: 10px 0 20px;
   overflow: hidden;
 }
 
 .list-item .character-pic {
-  height: 200px;
-  width: 140px;
+  width: 100%;
+  height: auto;
   border-radius: 15px;
   margin: 0;
   position: absolute;
-  top: 0;
+  bottom: 80px;
 }
 
 .list-item .character-back-pic {
-  height: 140px;
-  width: 140px;
+  width: 300px;
+  height: 300px;
   border-radius: 50%;
   margin: 0;
   position: absolute;
@@ -486,18 +496,20 @@ a {
 }
 
 .list-item p {
-  margin: 0;
-  line-height: 100%;
+  padding: 0;
+  font-size: 1.6em;
+  line-height: 90%;
 }
 
 .story-background-image {
   height: auto;
-  width: 140px;
+  width: 100%;
 }
 
 .story-character-image {
-  height: 150px;
+  height: 330px;
   width: auto;
+  margin-top: -120px;
 }
 
 .character-image {
@@ -507,7 +519,7 @@ a {
 
 .adder {
   cursor: pointer;
-  padding: 140px 0 140px 75px;
+  padding: 140px 0 140px 150px;
 }
 
 .list-item:hover {
@@ -524,7 +536,7 @@ a {
 .sub-nav .hover-line {
   background-color: var(--brand-color);
   width: 0;
-  height: 3px;
+  height: 5px;
   border-radius: 5px;
   margin-top: .5em;
   margin-left: 2em;
@@ -537,8 +549,8 @@ a {
 
 .sub-nav .cstatic-line {
   background-color: var(--brand-color);
-  width: 160px;
-  height: 3px;
+  width: 375px;
+  height: 5px;
   border-radius: 5px;
   margin-top: .5em;
   margin-left: 2em;
@@ -546,8 +558,8 @@ a {
 
 .sub-nav .nstatic-line {
   background-color: var(--brand-color);
-  width: 100px;
-  height: 3px;
+  width: 250px;
+  height: 5px;
   border-radius: 5px;
   margin-top: .5em;
   margin-left: 2em;
@@ -558,11 +570,11 @@ a {
 }
 
 .csubnav:hover > div {
-  width: 160px;
+  width: 375px;
 }
 
 .nsubnav:hover > div {
-  width: 100px;
+  width: 250px;
 }
 
 * {
@@ -640,7 +652,7 @@ a {
 .hover-line {
   background-color: var(--brand-color);
   width: 5%;
-  height: 3px;
+  height: 5px;
   border-radius: 5px;
   margin-top: 3em;
   transition: width .3s;
@@ -648,13 +660,14 @@ a {
 }
 
 .app-header-main:hover > div {
-  width: 15%;
+  width: 100%;
 }
 
 .page-title {
   color: var(--app-header-txt-color);
   font-size: var(--app-header-title-font-size);
   font-weight: var(--app-header-title-font-weight);
+  width: 35vw;
   margin-right: .5em;
 }
 
@@ -699,7 +712,10 @@ a {
 
 .selectorDiv {
   width: 100%;
+  justify-content: center;
+  align-items: center;
   padding: 0 2em;
+  font-size: 2em;
   display: flex;
 }
 
@@ -709,7 +725,8 @@ a {
 
 .selectorDiv2 {
   width: 100%;
-  padding: 0 2em 1.5vh;
+  padding: .8em 2em 0;
+  font-size: 2.2em;
   display: flex;
 }
 
@@ -720,10 +737,10 @@ a {
 
 .contentBoxLine {
   width: auto;
-  height: .5px;
+  height: 2px;
   background-color: #777;
-  margin-top: -1vh;
-  margin-bottom: 2vh;
+  margin-top: 1.8em;
+  margin-bottom: .5em;
 }
 
 .selectorSl {
@@ -735,12 +752,14 @@ a {
 }
 
 .barChart {
+  align-items: center;
   margin: 0;
-  padding: 0 2em;
+  padding: .8em 2em 0;
   display: flex;
 }
 
 .barChart p {
+  font-size: 2em;
   line-height: .8;
 }
 
@@ -832,7 +851,9 @@ a {
 }
 
 .box-subheader {
-  font-size: 1.2em;
+  margin-bottom: -10px;
+  padding: 10px 0 0;
+  font-size: 2.2em;
   font-weight: 500;
   line-height: .8;
 }
@@ -848,15 +869,14 @@ a {
 }
 
 .character-image-box {
-  height: 200px;
+  height: auto;
   width: 100%;
-  margin: 0 0 10px;
   position: relative;
 }
 
 .story-background {
-  width: 150px;
-  height: auto;
+  width: 100%;
+  height: 300px;
 }
 
 #foo {
@@ -879,7 +899,7 @@ a {
 #chart {
   height: 85%;
   width: auto;
-  margin-top: -2vh;
+  margin-top: -.5em;
 }
 
 .character-grid-item p {
@@ -888,6 +908,21 @@ a {
 
 .spider-chart-container {
   overflow: hidden;
+}
+
+.submit-btn {
+  width: 10vw;
+  height: 5vh;
+  margin-right: 1em;
+  font-size: 4em;
+}
+
+.icon-n-label {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 3em;
 }
 
 .input-group {

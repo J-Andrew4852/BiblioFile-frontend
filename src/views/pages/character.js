@@ -169,10 +169,10 @@ class CharacterView {
                 <sl-input class="selectorSl2" value=${this.character.personalityTraits[0]}></sl-input>
               </div>
               <div class="selectorDiv2">
-                <sl-input class="selectorSl2" value=${this.character.personalityTraits[1]}></sl-input>
+                <sl-input class="selectorSl2" size="medium" value=${this.character.personalityTraits[1]}></sl-input>
               </div>
               <div class="selectorDiv2">
-                <sl-input class="selectorSl2" value=${this.character.personalityTraits[2]}></sl-input>
+                <sl-input class="selectorSl2" size="medium" value=${this.character.personalityTraits[2]}></sl-input>
               </div>
             </div>
             <div class="character-grid-item" style="background-color: ${LOCATION_TO_COLOUR[this.character.location]};">

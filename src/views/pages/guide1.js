@@ -49,7 +49,7 @@ class GuideView {
           <div class="guide-box">
             <div class="guide-box-left">
               <div class="icon-n-label">
-                <svg width="24" height="24" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg width="48" height="48" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M5 0C2.23858 0 0 2.23858 0 5V29C0 31.7614 2.23858 34 5 34H29C31.7614 34 34 31.7614 34 29V5C34 2.23858 31.7614 0 29 0H5ZM18 10H16V16H10V18H16V24H18V18H24V16H18V10Z" fill="#424C70"/>
                 </svg>
                 <h1>Create Stories</h1> 
@@ -73,8 +73,8 @@ class GuideView {
           </div>
         </div>
       
-        <sl-button type="primary" @click=${() => gotoRoute('/signin')}>Okay got it!</sl-button>
-        <sl-button type="primary" class="submit-btn" @click=${this.updateCurrentUser.bind(this)}>Don't show again</sl-button>
+        <sl-button size="large" type="primary" class="submit-btn" @click=${() => gotoRoute('/signin')}>Okay got it!</sl-button>
+        <sl-button size="large" type="primary" class="submit-btn" @click=${this.updateCurrentUser.bind(this)}>Don't show again</sl-button>
       </div>      
     `
     render(template, App.rootEl);

@@ -89,7 +89,7 @@ class CharacterNotesView {
             <div class="notes-top-bar fit2">
               <div class="divider-line"></div>
             </div>
-            <sl-textarea value="${this.note}" @input=${debounce(this.saveNote, 600)} class="character-notes-section" resize="auto" placeholder="Start writing here..." size="small" rows="20"></sl-textarea>
+            <sl-textarea size="large" value="${this.note}" @input=${debounce(this.saveNote, 600)} class="character-notes-section" resize="auto" placeholder="Start writing here..." rows="35"></sl-textarea>
           </div>
         </div>
       </div>      

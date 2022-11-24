@@ -49,13 +49,13 @@ class GuideView {
           <div class="guide-box">
             <div class="guide-box-left">
               <div class="icon-n-label">
-                <svg width="24" height="24" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg width="48" height="48" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M0 26.9176V34H7.08235L27.9706 13.1118L20.8882 6.02944L0 26.9176ZM33.4476 7.63477C34.1841 6.89821 34.1841 5.70837 33.4476 4.97181L29.0282 0.552423C28.2916 -0.184141 27.1018 -0.184141 26.3652 0.552423L22.909 4.00861L29.9914 11.091L33.4476 7.63477V7.63477Z" fill="#424C70"/>
                 </svg>
                 <h1>Create Stories</h1> 
               </div>
               <div class="guide-para">
-                <p>Edit everything from the character’s personality traits to what motivates them</p>
+                <p>Edit everything from the character's personality traits to what motivates them</p>
                 <p>Click the pen icon to edit components </p>
               </div>
             </div>
@@ -72,8 +72,8 @@ class GuideView {
           </div>
         </div>
       
-        <sl-button type="primary" @click=${() => gotoRoute('/signin')}>Okay got it!</sl-button>
-        <sl-button type="primary" class="submit-btn" @click=${this.updateCurrentUser.bind(this)}>Don't show again</sl-button>
+        <sl-button size="large" type="primary" class="submit-btn" @click=${() => gotoRoute('/signin')}>Okay got it!</sl-button>
+        <sl-button size="large" type="primary" class="submit-btn" class="submit-btn" @click=${this.updateCurrentUser.bind(this)}>Don't show again</sl-button>
       </div>      
     `
     render(template, App.rootEl);
