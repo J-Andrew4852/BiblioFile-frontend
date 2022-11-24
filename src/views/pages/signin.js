@@ -42,14 +42,14 @@ class SignInView {
               <h1>Sign In</h1>          
               <sl-form class="form-signup dark-theme" @sl-submit=${this.signInSubmitHandler}>          
                 <div class="input-group">
-                  <sl-input name="email" type="email" placeholder="Email" required></sl-input>
+                  <sl-input name="email" type="email" placeholder="Email" size="large" required></sl-input>
                 </div>
                 <div class="input-group">
-                  <sl-input name="password" type="password" placeholder="Password" required toggle-password></sl-input>
+                  <sl-input name="password" type="password" placeholder="Password" size="large" required toggle-password></sl-input>
                 </div>
-                <sl-button class="submit-btn" type="primary" submit style="width: 100%;">Sign In</sl-button>
+                <sl-button class="submit-btn" type="primary" size="large" submit style="width: 100%; font-size:2em;">Sign In</sl-button>
               </sl-form>
-              <p>No Account? <a href="/signup" @click=${anchorRoute}>Sign Up</a></p>
+              <p style="font-size:1.5em;"> No Account? <a href="/signup" @click=${anchorRoute}>Sign Up</a></p>
             </div>
           </div>
         </div>

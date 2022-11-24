@@ -1852,14 +1852,14 @@ class SignInView {
               <h1>Sign In</h1>          
               <sl-form class="form-signup dark-theme" @sl-submit=${this.signInSubmitHandler}>          
                 <div class="input-group">
-                  <sl-input name="email" type="email" placeholder="Email" required></sl-input>
+                  <sl-input name="email" type="email" placeholder="Email" size="large" required></sl-input>
                 </div>
                 <div class="input-group">
-                  <sl-input name="password" type="password" placeholder="Password" required toggle-password></sl-input>
+                  <sl-input name="password" type="password" placeholder="Password" size="large" required toggle-password></sl-input>
                 </div>
-                <sl-button class="submit-btn" type="primary" submit style="width: 100%;">Sign In</sl-button>
+                <sl-button class="submit-btn" type="primary" size="large" submit style="width: 100%; font-size:2em;">Sign In</sl-button>
               </sl-form>
-              <p>No Account? <a href="/signup" @click=${(0, _router.anchorRoute)}>Sign Up</a></p>
+              <p style="font-size:1.5em;"> No Account? <a href="/signup" @click=${(0, _router.anchorRoute)}>Sign Up</a></p>
             </div>
           </div>
         </div>
@@ -5577,20 +5577,20 @@ class SignUpView {
           <h1>Sign Up</h1>
           <sl-form class="form-signup" @sl-submit=${this.signUpSubmitHandler}>
             <div class="input-group">
-              <sl-input name="firstName" type="text" placeholder="First Name" required></sl-input>
+              <sl-input name="firstName" type="text" placeholder="First Name" size="large" required></sl-input>
             </div>
             <div class="input-group">
-              <sl-input name="lastName" type="text" placeholder="Last Name" required></sl-input>
+              <sl-input name="lastName" type="text" placeholder="Last Name" size="large" required></sl-input>
             </div>
             <div class="input-group">
-              <sl-input name="email" type="email" placeholder="Email" required></sl-input>
+              <sl-input name="email" type="email" placeholder="Email" size="large" required></sl-input>
             </div>
             <div class="input-group">
-              <sl-input name="password" type="password" placeholder="Password" required toggle-password></sl-input>
+              <sl-input name="password" type="password" placeholder="Password" size="large" required toggle-password></sl-input>
             </div>            
-            <sl-button type="primary" class="submit-btn" submit style="width: 100%;">Sign Up</sl-button>
+            <sl-button type="primary" class="submit-btn" submit style="width: 100%;" size="large">Sign Up</sl-button>
           </sl-form>
-          <p>Have an account? <a href="/signin" @click=${(0, _router.anchorRoute)}>Sign In</a></p>
+          <p style="font-size:1.5em;">Have an account? <a href="/signin" @click=${(0, _router.anchorRoute)}>Sign In</a></p>
         </div>
         </div>
       </div>

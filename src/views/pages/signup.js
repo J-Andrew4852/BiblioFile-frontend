@@ -42,20 +42,20 @@ class SignUpView{
           <h1>Sign Up</h1>
           <sl-form class="form-signup" @sl-submit=${this.signUpSubmitHandler}>
             <div class="input-group">
-              <sl-input name="firstName" type="text" placeholder="First Name" required></sl-input>
+              <sl-input name="firstName" type="text" placeholder="First Name" size="large" required></sl-input>
             </div>
             <div class="input-group">
-              <sl-input name="lastName" type="text" placeholder="Last Name" required></sl-input>
+              <sl-input name="lastName" type="text" placeholder="Last Name" size="large" required></sl-input>
             </div>
             <div class="input-group">
-              <sl-input name="email" type="email" placeholder="Email" required></sl-input>
+              <sl-input name="email" type="email" placeholder="Email" size="large" required></sl-input>
             </div>
             <div class="input-group">
-              <sl-input name="password" type="password" placeholder="Password" required toggle-password></sl-input>
+              <sl-input name="password" type="password" placeholder="Password" size="large" required toggle-password></sl-input>
             </div>            
-            <sl-button type="primary" class="submit-btn" submit style="width: 100%;">Sign Up</sl-button>
+            <sl-button type="primary" class="submit-btn" submit style="width: 100%;" size="large">Sign Up</sl-button>
           </sl-form>
-          <p>Have an account? <a href="/signin" @click=${anchorRoute}>Sign In</a></p>
+          <p style="font-size:1.5em;">Have an account? <a href="/signin" @click=${anchorRoute}>Sign In</a></p>
         </div>
         </div>
       </div>

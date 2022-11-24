@@ -325,9 +325,17 @@ a {
 
 .signinup-box,
 .signup-box {  
-  max-width: 320px;
+  max-width: 500px;
   text-align: center;
-  margin: 25vh 0 0 18vw;
+  margin: 20vh 0 0 15vw;
+  h1 {
+    font-size: 3em;
+    padding-bottom: 0.5em;
+  }
+
+}
+.input-group {
+  padding: 0 0 0.5em 0;
 }
 
 .signinup-logo {
@@ -509,10 +517,6 @@ a {
 .adder {
   padding: 140px 0 140px 150px;
   cursor: pointer;
-}
-
-.list-item:hover {
-  background-color: var(--brand-color);
 }
 
 .sub-nav {
