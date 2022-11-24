@@ -4,8 +4,6 @@ import {gotoRoute, anchorRoute} from '../../Router'
 import Auth from '../../Auth'
 import Utils, { post } from '../../Utils'
 import CharactersAPI from '../../CharactersAPI'
-import SolidApp from "../../components/App"
-import { render as solidRender } from "solid-js/web";
 import cloud from "../../../static/images/background-clouds.png";
 import desert from "../../../static/images/background-desert.png";
 import farm from "../../../static/images/background-farm.png";
