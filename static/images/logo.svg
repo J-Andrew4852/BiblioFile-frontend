@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 183.78 135.34">
+  <defs>
+    <style>
+      .cls-1 {
+        isolation: isolate;
+      }
+
+      .cls-2, .cls-6 {
+        fill: #fdb614;
+      }
+
+      .cls-3 {
+        fill: #f8d57e;
+      }
+
+      .cls-3, .cls-4 {
+        stroke: #fdb614;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-4, .cls-8 {
+        fill: #fff;
+      }
+
+      .cls-5 {
+        mix-blend-mode: multiply;
+        opacity: 0.5;
+      }
+
+      .cls-6, .cls-8 {
+        font-size: 33px;
+        font-family: Roboto-Regular, Roboto;
+      }
+
+      .cls-7 {
+        font-family: Roboto-Bold, Roboto;
+        font-weight: 700;
+      }
+    </style>
+  </defs>
+  <g class="cls-1">
+    <g id="Layer_2" data-name="Layer 2">
+      <g id="Layer_1-2" data-name="Layer 1">
+        <path class="cls-2" d="M154.59,123h-128a24,24,0,0,1-15.87-6l-5.2-4.58v5.76a12,12,0,0,0,12,12H163.66a12,12,0,0,0,12-12v-5.76l-5.2,4.58A24,24,0,0,1,154.59,123Z"/>
+        <g>
+          <rect class="cls-3" x="5.5" y="15.54" width="170.16" height="114.26" rx="12"/>
+          <path class="cls-3" d="M175.66,28.89V18a12,12,0,0,0-12-12H102.58A11.82,11.82,0,0,0,90.74,16"/>
+        </g>
+        <path class="cls-2" d="M154.59,123h-128a24,24,0,0,1-15.87-6l-5.2-4.58v5.76a12,12,0,0,0,12,12H163.66a12,12,0,0,0,12-12v-5.76l-5.2,4.58A24,24,0,0,1,154.59,123Z"/>
+        <rect class="cls-4" x="6.97" y="14.82" width="165.97" height="66.51" rx="12" transform="translate(-1.61 3.13) rotate(-1.98)"/>
+        <rect class="cls-4" x="7.39" y="10.54" width="170.16" height="114.26" rx="12" transform="translate(10.7 -12.6) rotate(8.27)"/>
+        <rect class="cls-4" x="3.52" y="17.45" width="170.16" height="114.26" rx="12"/>
+        <rect class="cls-3" x="0.5" y="20.54" width="170.16" height="114.26" rx="12"/>
+        <g>
+          <g class="cls-5">
+            <text class="cls-6" transform="translate(19.92 91.04)">Biblio<tspan class="cls-7" x="81.9" y="0">File</tspan></text>
+          </g>
+          <text class="cls-8" transform="translate(17.92 89.04)">Biblio<tspan class="cls-7" x="81.9" y="0">File</tspan></text>
+        </g>
+        <path class="cls-2" d="M149.59,127.61h-128a24,24,0,0,1-15.87-6L.5,117v5.77a12,12,0,0,0,12,12H158.66a12,12,0,0,0,12-12V117l-5.2,4.59A24,24,0,0,1,149.59,127.61Z"/>
+      </g>
+    </g>
+  </g>
+</svg>
