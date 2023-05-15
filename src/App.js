@@ -7,7 +7,7 @@ class App {
   constructor(){
     this.name = "Haircuts"
     this.version = "1.0.0"
-    this.apiBase = 'https://jandrew-bibliofile-backend.herokuapp.com'
+    this.apiBase = 'https://bibliofile-backend-production.up.railway.app'
     this.rootEl = document.getElementById("root")
     this.version = "1.0.0"
   }
