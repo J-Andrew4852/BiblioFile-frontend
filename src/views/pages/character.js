@@ -40,7 +40,7 @@ const IMG_URL_TO_ASSET_URL = {
   "/images/person-09.png": person9,
   "/images/person-10.png": person10,
 }
-LOCATION_TO_COLOUR = {
+const LOCATION_TO_COLOUR = {
   "Clouds": "#EAFAFF",
   "Desert": "#FBDF97",
   "Farm": "#DDEFDD",
