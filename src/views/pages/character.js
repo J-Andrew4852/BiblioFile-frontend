@@ -22,7 +22,7 @@ import person9 from "../../../static/images/person-09.png";
 import person10 from "../../../static/images/person-10.png";
 import jumble from "../../../static/images/jumbleIcon.svg";
 
-IMG_URL_TO_ASSET_URL = {
+const IMG_URL_TO_ASSET_URL = {
   "/images/background-clouds.png": cloud,
   "/images/background-desert.png": desert,
   "/images/background-farm.png": farm,
